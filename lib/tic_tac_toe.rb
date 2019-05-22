@@ -36,4 +36,5 @@ class TicTacToe
 
   def valid_move?(position)
     @board[position] == " "
+  end
 end
