@@ -53,14 +53,8 @@ class TicTacToe
     if valid_move?(space)
       move(space, current_player)
       display_board
-    else while valid_move?(space) == false
-      puts "Enter a move: 1-9"
-      input = gets.strip
-      space = input_to_index(input)
-      if valid_move?(space)
-        move(space, current_player)
-        display_board
-      end
+    else
+      self.turn
     end
   end
 
