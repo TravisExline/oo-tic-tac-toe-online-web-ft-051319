@@ -70,4 +70,8 @@ class TicTacToe
     end
   end
 
+  def full?
+    @board.none?{|space| space == " "}
+  end
+
 end
