@@ -83,7 +83,6 @@ class TicTacToe
     elsif won?
       return false
     end
-    return true
   end
 
 end
