@@ -110,5 +110,6 @@ class TicTacToe
       puts "Congratulations!"
     elsif draw?
       puts "Cat's Game!"
+    end
   end
 end
