@@ -65,7 +65,7 @@ class TicTacToe
       elsif @board[combination[1]] == "O" && @board[combination[1]] == "O" && @board[combination[2]] == "O"
         return combination
       else
-        false
+        return false
       end
     end
   end
