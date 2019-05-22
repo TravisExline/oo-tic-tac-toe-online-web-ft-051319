@@ -7,7 +7,7 @@ class TicTacToe
     [2,4,6], #R-L Diag top bot
     [0,3,6], #L down
     [2,5,8], #R down
-    [1,4,7]
+    [1,4,7] #mid down
   ]
 
   def initialize
