@@ -37,4 +37,16 @@ class TicTacToe
   def valid_move?(position)
     @board[position] == " "
   end
+
+  def turn_count
+    @board.count{|token| token == "X" || token == "O"}
+  end
+
+  def turn
+    puts "Enter a move: 1-9"
+    input = gets.strip
+    space = input_to_index(input)
+    if valid_move(space)
+    end
+  end
 end
