@@ -94,7 +94,7 @@ class TicTacToe
   def winner?
     if won? == true
       winner = won?
-      @board[winner[0]]
+      return @board[winner[0]]
     else nil
     end
   end
