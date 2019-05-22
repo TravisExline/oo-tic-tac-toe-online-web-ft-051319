@@ -54,7 +54,7 @@ class TicTacToe
       move(space, current_player)
       display_board
     else
-      turn
+      self.turn
     end
   end
 end
