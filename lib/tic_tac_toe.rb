@@ -92,10 +92,9 @@ class TicTacToe
   end
 
   def winner?
-    if won? == true
-      winner = won?
-      return @board[winner[0]]
-    else nil
+    if won? == false then nil else
+      winner_array = won?
+      @board[winner_array[0]]
     end
   end
 end
