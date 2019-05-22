@@ -100,4 +100,15 @@ class TicTacToe
       nil
     end
   end
+
+  def play
+    until won? || draw?
+      turn
+    end
+
+    if won?
+      puts "Congratulations!"
+    elsif draw?
+      puts "Cat's Game!"
+  end
 end
