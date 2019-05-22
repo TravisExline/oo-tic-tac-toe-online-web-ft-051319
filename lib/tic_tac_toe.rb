@@ -74,4 +74,15 @@ class TicTacToe
     @board.none?{|space| space == " "}
   end
 
+  def draw?
+    !won? && full?
+    if !won? && full?
+      return true
+    elsif !won? && !full?
+      return false
+    elsif won?
+      return false
+    end
+  end
+
 end
