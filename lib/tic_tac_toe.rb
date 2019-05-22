@@ -30,6 +30,7 @@ class TicTacToe
     @board[space] = token
   end
 
-  def position_taken?
+  def position_taken?(position)
+    @board[position] != " "
   end
 end
