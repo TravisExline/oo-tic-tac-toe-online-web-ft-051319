@@ -27,5 +27,6 @@ class TicTacToe
   end
 
   def move(space, token = "X")
+    @board[space] = token
   end
 end
